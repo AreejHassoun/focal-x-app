@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:focal_x/utils/app_style.dart';
 
 class CustomBottomNavBarDash extends StatefulWidget {
   final int defaultSelectedIndex;
@@ -17,9 +18,9 @@ class CustomBottomNavBarDash extends StatefulWidget {
     required this.onChange,
     required this.iconList,
     required this.textList,
-    this.backgroundColor = Colors.white,
-    this.selectedColor = Colors.red,
-    this.unselectedColor = Colors.grey,
+    this.backgroundColor = kWhite,
+    this.selectedColor = kOrange,
+    this.unselectedColor = kGreyD9,
     this.radius = 0.0,
     this.sizeIcon = 24,
     this.showLabel = true,
