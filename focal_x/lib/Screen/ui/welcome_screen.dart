@@ -1,13 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-
-//import 'package:focal_x/main.dart';
-
 import '../widgets/Widgetbutton.dart';
-import 'login_screen.dart';
-
-//import '../widgets/App_button.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
