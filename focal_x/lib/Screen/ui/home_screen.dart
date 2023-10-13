@@ -5,6 +5,7 @@ import '../../utils/size_config.dart';
 
 import '../widgets/sliderItemes/cource_item.dart';
 import '../widgets/sliderItemes/course_list_item.dart';
+import '../widgets/vedioplay.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -98,6 +99,12 @@ class _HomeScreenState extends State<HomeScreen> {
               const SizedBox(
                 height: kPadding24,
               ),
+              Container(
+                color: Colors.black,
+                height: 200,
+                width: MediaQuery.of(context).size.width,
+                child: VideoThumbnail( videoPath:"https://youtu.be/QoEhjBUAXSA"),
+              )
             ],
           ),
         ),

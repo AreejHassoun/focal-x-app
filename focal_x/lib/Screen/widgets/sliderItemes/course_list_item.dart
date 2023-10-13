@@ -122,7 +122,7 @@ class _CourseListItemState extends State<CourseListItem> {
                       ),
                       Row(
                         children: [
-                          Icon(Icons.watch_later_outlined),
+                          //add icon
                           SizedBox(
                             width:
                             kPadding8,
